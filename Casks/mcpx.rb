@@ -3,7 +3,7 @@ cask "mcpx" do
   name "mcpx"
   desc "Unix-native CLI wrapper for MCP servers"
   homepage "https://github.com/lydakis/mcpx"
-  version "0.1.22"
+  version "0.1.24"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "mcpx" do
   on_macos do
     on_intel do
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_darwin_amd64.tar.gz"
-      sha256 "a7b1cb6a902e12bc6325428347182068e015a95024344c688f6a548cd63bd675"
+      sha256 "fb0f93ba9c509f9bc912ffb814934e0a4801691ff5e131ae284d8d46ee840a25"
     end
     on_arm do
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_darwin_arm64.tar.gz"
-      sha256 "a08d69a1539e71cc8c986916d542216b14f3ca9dfa608dd0ce625989861af7bc"
+      sha256 "72706983ee6539b34f89ebfcc20d88b0710cee16dfb81d2e78e9b4d9aa14bbd4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_linux_amd64.tar.gz"
-      sha256 "94e752c08c8dbbe9c1088fa77091b985e582ea031f15b9ca1541495b2c621f6f"
+      sha256 "e75e6e3f3648e540a43753fcee0dbb50d0bfe3f2a2ec6ba29369d83612987696"
     end
     on_arm do
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_linux_arm64.tar.gz"
-      sha256 "ad4b7e42f5e41793dc87a574e5a2272201cd61c5ba38405ad7014b8fa2bc5cde"
+      sha256 "4ff7ef21519480168da44d65dd362ad8c0e47333fad716cc2de5da4cfea20ea9"
     end
   end
 
