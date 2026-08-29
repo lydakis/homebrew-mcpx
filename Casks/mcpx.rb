@@ -4,21 +4,21 @@ cask "mcpx" do
 
   on_macos do
     on_arm do
-      sha256 "2e7fe299640fd361a922eab7b64790a3a0391de6cb8ad5c8d99cbea2c945322b"
+      sha256 "4ffa9dbdd3ed3357d301b2f05255da6472b10c327db2d4144a49d907850963a0"
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "80a810d3d238a8528d4e9ed8fa251e717bb5a72ebe606a0697e227e251ad6e18"
+      sha256 "790ded07dfbd6959e3bd77bc0db538e4c697beac5ea35141c09c1111e5a90752"
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "66ff1f545551470494c943e3b71bf8b7f0e25a97abc9c48c7d4fde92550cc73a"
+      sha256 "5fd535e463895cdd7fd8fa85841794041e012c7cf1e656211ac663bcf9e77bed"
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fb272dafe05b40f01977d2b217c439a0ecbba0890cb45984fc9b10722ce5cbc1"
+      sha256 "2be2bcd5d3a81ae7f254f657a19a32eefcf8d91503d0fd79431a4d9fc5914d0e"
       url "https://github.com/lydakis/mcpx/releases/download/v#{version}/mcpx_#{version}_linux_amd64.tar.gz"
     end
   end
